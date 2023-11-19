@@ -1,1 +1,12 @@
-/*  your css code here. If applicable */
+#incrementBtn {
+            background-color: #808080; /* Gray */
+            color: #fff; /* White text */
+            padding: 10px 15px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #incrementBtn:active {
+            background-color: #87CEEB; /* Sky Blue on click */
+        }
