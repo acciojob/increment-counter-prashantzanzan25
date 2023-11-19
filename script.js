@@ -1,4 +1,3 @@
-//your JS code here. If required.
 var counterElement = document.getElementById("counter");
 var incrementBtn = document.getElementById("incrementBtn");
 
