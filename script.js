@@ -1,10 +1,8 @@
-const counterElement = document.getElementById('counter');
-const incrementButton = document.getElementById('incrementBtn');
+let button = document.getElementById('incrementBtn');
+button.addEventListener('click', function() {
+	let counter = document.getElementById("counter");
+	let count = parseInt(counter.innerText);
+	alert(count);
+	counter.innerText=count x 1;
+});
 
-incrementButton.addEventListener('click', () => {
-	const currentValue = parseInt(counterElement.innerText, 10);
-	
-	alert(`Un-incremented Value: ${currentValue}`);
-	
-	counterElement.innerText = currentValue + 1;
-    });
